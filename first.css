@@ -1,0 +1,184 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+/*navbar*/
+.ul{
+    list-style: none;
+}
+body , html {
+    overflow-x:hidden ;
+ }
+.navbar {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.nav-links {
+    display: flex;
+    justify-self: center;
+}
+.nav-links li {
+    margin: 0 30px;
+}
+
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Backpacking-Trip-Image.webp");
+    background-position: bottom;
+    background-size:cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.header-content {
+    margin-left: 90px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2 {
+    font-size: 4vmin;
+}
+.line {
+    width: 90px;
+    height:4px;
+    margin:10px auto;
+    border-radius: 5px;
+}
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+/**7777*/
+
+
+.events-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.events-section h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.events-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.event {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+}
+
+.event h2 {
+    color: #333;
+    padding: 10px 20px 0;
+}
+
+.event p {
+    padding: 10px 20px;
+    color: #666;
+}
+
+.event button {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.event button:hover {
+    background-color: #ff1744;
+}
+
+.explore {
+    width:100%;
+    height: 75vh;
+    background-image:url('bg2.png') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content {
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content  h1 {
+    font-size: 7vmin;
+    margin: 50px;
+}
+.explore-content line {
+    margin-bottom: 50px;
+}
+.explore-content p {
+    color:rgb(221 ,221, 221) ;
+    margin: 50px;
+}
+.footer {
+    width: 100%;
+    min-height: 50px;
+    padding: 10px 70px;
+    margin: 0;
+    background: #484872;
+    text-align: center;
+}
+.footer p {
+    color: whitesmoke;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
